@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet" /> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Home</title>
 </head>
+
 <body>
     <header>
         <div class="container flex">
@@ -19,7 +22,7 @@
                     <img src="./assets/img/part-logo-1.png" alt="Backup" />
                     <img src="./assets/img/part-logo-2.png" alt="Backup" />
                 </div>
-                <nav class="h-navigation">
+                <nav class="h-navigation menu--desktop">
                     <ul class="flex">
                         <li>
                             <a href="#"><strong>About</strong></a>
@@ -35,16 +38,39 @@
                         </li>
                     </ul>
                 </nav>
+                <button class="activate-menu">
+                    <strong class="menu-open">
+                        Menu
+                        <i class="fas fa-chevron-circle-down"></i>
+                    </strong>
+                    <strong class="menu-close"><i class="icon fas fa-times-circle"></i></strong>
+                </button>
                 <!-- /.h-navigation -->
             </div>
             <!-- /.h-wrapper -->
 
-    
+
             <a href="#" class="h-demo link flex">
                 Request Demo<i class="icon fas fa-long-arrow-alt-right"></i>
             </a>
         </div>
         <!-- /.container -->
+        <menu class="menu--mobile">
+            <ul class="mobile--display menu">
+                <li>
+                    <a href="about"><strong>About</strong></a>
+                </li>
+                <li>
+                    <a href="help.html">Help</a>
+                </li>
+                <li>
+                    <a href="features">Features</a>
+                </li>
+                <li>
+                    <a href="signup">Signup</a>
+                </li>
+            </ul>
+        </menu>
     </header>
 
     <section class="head-line">
@@ -71,8 +97,10 @@
                     We are a high-level data storage bank
                 </h2>
                 <p>
-                    The place to store various data that you can access at   any time through the internet  and where you can carry it. 
-                    This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse.
+                    The place to store various data that you can access at any time through the internet and where you
+                    can carry it.
+                    This very flexible storage area has a high level of security. To enter into your own data you must
+                    enter the password that you created when you registered in this Data Warehouse.
                 </p>
             </div>
             <!-- /cp__wrapper -->
@@ -86,7 +114,8 @@
             <div class="features__head">
                 <h2>Features</h2>
                 <p>
-                    Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.
+                    Some of the features and advantages that we provide for those of you who store data in this Data
+                    Warehouse.
                 </p>
             </div>
             <div class="features__wrapper flex">
@@ -96,22 +125,21 @@
                     <div class="details__wrapper">
                         <h3>Search Data</h3>
                         <p>
-                            Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is useful for making it easier to find data effectively saving time.
+                            Don’t worry if your data is very large, the Data Warehoue provides a search engine, which is
+                            useful for making it easier to find data effectively saving time.
                         </p>
                         <a href="#" class="link flex">
-                            Learn More 
+                            Learn More
                             <i class="icon fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
                     <!-- /details__wrapper -->
                 </div>
                 <!-- /features__details -->
-                
-                <div class="features__details flex"
-                    style="background-image: url('./assets/img/Rectangle39-4.png');">
-                    
-                    <div class="features__background"
-                        style="background-image: url('./assets/img/image4.png');"></div>
+
+                <div class="features__details flex" style="background-image: url('./assets/img/Rectangle39-4.png');">
+
+                    <div class="features__background" style="background-image: url('./assets/img/image4.png');"></div>
                     <div class="details__wrapper">
                         <h3>24 Hours Access</h3>
                         <p>
@@ -120,19 +148,17 @@
                             you need data when urgent.
                         </p>
                         <a href="#" class="link flex">
-                            Learn More 
+                            Learn More
                             <i class="icon fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
                     <!-- /details__wrapper -->
                 </div>
                 <!-- /features__details -->
-            
-                <div class="features__details flex"
-                style="background-image: url('./assets/img/Rectangle39-2.png');">
-                    
-                    <div class="features__background"
-                    style="background-image: url('./assets/img/image5.png');"></div>
+
+                <div class="features__details flex" style="background-image: url('./assets/img/Rectangle39-2.png');">
+
+                    <div class="features__background" style="background-image: url('./assets/img/image5.png');"></div>
                     <div class="details__wrapper">
                         <h3>Print Out</h3>
                         <p>
@@ -140,28 +166,26 @@
                             you need print data, just edit it all and just print it.
                         </p>
                         <a href="#" class="link flex">
-                            Learn More 
+                            Learn More
                             <i class="icon fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
                     <!-- /details__wrapper -->
                 </div>
                 <!-- /features__details -->
-                
-                <div class="features__details flex"
-                style="background-image: url('./assets/img/Rectangle39-3.png');">
-                    
-                    <div class="features__background"
-                    style="background-image: url('./assets/img/image6.png');"></div>
+
+                <div class="features__details flex" style="background-image: url('./assets/img/Rectangle39-3.png');">
+
+                    <div class="features__background" style="background-image: url('./assets/img/image6.png');"></div>
                     <div class="details__wrapper">
                         <h3>Security Code</h3>
                         <p>
                             Data Security is one of our best facilities. Allows for your files
-                            to be safer. The file can be secured with a code or password that 
+                            to be safer. The file can be secured with a code or password that
                             you created, so only you can open the file.
                         </p>
                         <a href="#" class="link flex">
-                            Learn More 
+                            Learn More
                             <i class="icon fas fa-long-arrow-alt-right"></i>
                         </a>
                     </div>
@@ -188,8 +212,9 @@
                         </div>
                     </div>
                     <p>
-                        Suspendisse ultrices at diam lectus nullam. 
-                        Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.
+                        Suspendisse ultrices at diam lectus nullam.
+                        Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet
+                        nulla.
                     </p>
                 </div>
                 <!-- /testimony -->
@@ -202,14 +227,15 @@
                             <p class="testimony__website">www.domain.com</p>
                         </div>
                     </div>
-                    
+
                     <p>
-                        Suspendisse ultrices at diam lectus nullam. 
-                        Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.
+                        Suspendisse ultrices at diam lectus nullam.
+                        Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet
+                        nulla.
                     </p>
                 </div>
                 <!-- /testimony -->
-                
+
                 <div class="testimony">
                     <div class="testimony__wrapper flex">
                         <img src="./assets/img/Ellipse-76-2.png" alt="testimony">
@@ -219,20 +245,21 @@
                         </div>
                     </div>
                     <p>
-                        Suspendisse ultrices at diam lectus nullam. 
-                        Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.
+                        Suspendisse ultrices at diam lectus nullam.
+                        Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet
+                        nulla.
                     </p>
                 </div>
                 <!-- /testimony -->
 
                 <div class="wrapper__slider flex">
                     <span>bolinhas</span>
-                    
+
                     <div>
-                        <button>    
+                        <button>
                             <i class="icon fas fa-long-arrow-alt-left"></i>
                         </button>
-                        
+
                         <button>
                             <i class="icon fas fa-long-arrow-alt-right"></i>
                         </button>
@@ -282,10 +309,10 @@
                     </div>
                     <p>
                         <strong>
-                        Warehouse Society, 234
-    
-                        Bahagia Ave Street 
-                        PRBW 29281
+                            Warehouse Society, 234
+
+                            Bahagia Ave Street
+                            PRBW 29281
                         </strong>
                     </p>
                     <p>
@@ -378,4 +405,5 @@
 
 
 </body>
+
 </html>
